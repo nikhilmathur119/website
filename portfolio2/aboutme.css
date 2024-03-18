@@ -1,0 +1,174 @@
+
+body
+{
+    border: solid 10px black;
+    height: 250vh;
+    /*background-color: rgb(252, 220, 177);*/
+    /*background-color: #dabfff;*/
+    background-color: rgb(250, 235, 215);
+    padding: 0; margin: 0;
+    min-height: 100vh;
+    position: relative;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+}
+
+body,nav
+{
+    margin: 0;
+    background-color: rgb(250, 235, 215);
+}
+
+h2
+{
+
+    text-align: center;
+    align-items: center;
+}
+
+.head
+{
+    background-color: rgb(249, 221, 183);
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border: solid 2px rgb(0, 0, 0) ;
+    border-top: 1px inset;
+    border-left: 1px inset;
+    border-right: 1px inset;
+    border-top: 0;
+    word-wrap: break-word;
+    opacity: 0.9;
+    animation: bringcolor 2s ;
+}
+
+@keyframes bringcolor 
+{
+    0%
+    {
+        background-color: antiquewhite;
+    }   
+    100%
+    {
+        background-color: rgb(249, 221, 183);
+    }
+}
+
+.logo
+{
+    width: 20%;
+    float: left;
+    color: rgb(0, 0, 0);
+}
+
+.links
+{
+    margin-left: 100px;
+    width: 80%;
+    float: right;
+}
+
+.home
+{
+    box-shadow: 0px 0px 10px 10px  rgb(255, 212, 137);
+}
+
+.link
+{
+    height: 50px;
+    width: 150px;
+    margin-right: 20px;
+    border-bottom: 7px black inset ;
+    border-right: 7px black inset;
+    border-top: 1px inset;
+    border-left: 1px inset;
+    border-radius: 10px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+
+.link:hover
+{
+    border: 3px black inset;
+    border-radius: 5px;
+}
+
+a
+{
+    margin: 20px
+}
+
+:target
+{
+    background-color: black;
+}
+.left
+{
+    float: left;
+    width: 40%;
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+}
+/*.right
+{
+    width: 60%;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    float: right;
+}*/
+
+.parallax
+{
+    background-image: url("C:\\Users\\user\\OneDrive\\Desktop\\wallpaper\\minimalist-abstract-cubes-colorful.jpg");
+    background-repeat: none;
+    background-size: auto;
+    background-attachment: fixed;
+    /*background-color: rgb(240, 226, 165);*/
+    width: 100%;
+    height: 100%;
+}
+
+.backdrop
+{
+    background-color: antiquewhite;
+    z-index: 8;
+    height: 200vh;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+
+.photos
+{
+    width: 100%;
+    height: 200px;
+}
+.image
+{
+    width: 30%;
+    float: right;
+    margin-right: 60px;
+    margin-top: -100px;
+    border: 2px solid;
+}
+
+.image2
+{
+    width: 30%;
+    float: left;
+    margin-right: 40px;
+}
+
+.words
+{
+    font-family: "Pangolin", cursive;
+}
+
